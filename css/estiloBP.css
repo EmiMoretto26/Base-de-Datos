@@ -1,0 +1,105 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4e4d4; /* Fondo de tono suave */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Color del texto */
+}
+
+/* Estilo del encabezado */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #5a3825; /* Color madera */
+}
+
+h2 {
+    text-align: center;
+    color: #5a3825;
+    margin-top: 20px;
+}
+
+/* Barra lateral */
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #5a3825; /* Color madera oscura */
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #f4e4d4; /* Color claro */
+    display: block;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar a:hover {
+    background-color: #8b5e34; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilos del contenido principal */
+.main-content {
+    margin-left: 270px; /* Espacio para la barra lateral */
+    padding: 20px;
+}
+
+/* Estilos de los resultados */
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 80%;
+    margin: 20px auto;
+}
+
+ul li {
+    background-color: #fff6e5; /* Fondo claro */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #d1bba2; /* Borde suave */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul li:hover {
+    background-color: #f1ece4; /* Fondo más claro al pasar el ratón */
+}
+
+/* Botón para registros o acciones */
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #8b5e34;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6f4425; /* Oscurecer al pasar el ratón */
+}
+
+/* Pie de página */
+.footer {
+    background-color: #5a3825;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9em;
+}

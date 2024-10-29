@@ -1,0 +1,90 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4e4d4; /* Fondo en tono claro */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Color del texto */
+}
+
+/* Estilo del encabezado */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #4b3e2a; /* Color inspirado en madera */
+}
+
+/* Barra lateral */
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #5a3825; /* Color de madera oscura */
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #f4e4d4; /* Color claro */
+    display: block;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar a:hover {
+    background-color: #6f5e4d; /* Oscurecer al pasar el ratón */
+}
+
+/* Estilos del contenido principal */
+.main-content {
+    margin-left: 270px; /* Espacio para la barra lateral */
+    padding: 20px;
+}
+
+/* Contenedor para centrar el formulario */
+.form-container {
+    display: flex;
+    justify-content: center; /* Centrar el formulario horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    min-height: calc(100vh - 100px); /* Altura del contenedor menos espacio para el h1 */
+}
+
+/* Estilos del formulario */
+form {
+    background-color: #fcf5e9; /* Fondo suave para el formulario */
+    border: 1px solid #d3c4a1;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 300px; /* Ancho fijo para el formulario */
+}
+
+input[type="number"] {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 2px solid #d3c4a1;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4b3e2a; /* Botón con tono madera oscura */
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6f5e4d; /* Cambio de color al pasar el ratón */
+}

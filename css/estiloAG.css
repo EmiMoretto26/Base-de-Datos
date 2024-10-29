@@ -1,0 +1,83 @@
+/* Estilo general de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4e4d4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del encabezado principal */
+h1 {
+    color: #5a3825;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo del formulario */
+form {
+    background-color: #fff6e5;
+    border: 1px solid #d1bba2;
+    border-radius: 8px;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los campos del formulario */
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #d1bba2;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilo del botón */
+button[type="submit"] {
+    background-color: #8b5e34;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #6f4425;
+}
+
+/* Estilo de la barra lateral */
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #5a3825;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #f4e4d4;
+    display: block;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #8b5e34;
+    color: #ffffff;
+}
+
+/* Estilo del contenido */
+.main-content {
+    margin-left: 270px; /* Espacio para la barra lateral */
+    padding: 20px;
+}
